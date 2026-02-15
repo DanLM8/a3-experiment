@@ -10,6 +10,7 @@ consisting of 5-10 data points each.
 
 import random
 import json
+import statistics
 
 NUM_PER_TYPE = 20
 MIN_POINTS = 5
@@ -17,29 +18,28 @@ MAX_POINTS = 10
 MIN_VAL = 5
 MAX_VAL = 100
 
+COLORS = ["#1976d2", "#ef6c00", "#2e7d32", "#6a1b9a", "#c62828"]
+
 def generate_chart(chart_type, idx):
     n = random.randint(MIN_POINTS, MAX_POINTS)
 
     values = [random.randint(MIN_VAL, MAX_VAL) for _ in range(n)]
     labels = list(range(1, n + 1))
 
-    # pick two distinct sections to compare
-    a, b = random.sample(labels, 2)
+    data_points = [
+        {"label": labels[i], "value": values[i]}
+        for i in range(n)
+    ]
 
-    v1 = values[a-1]
-    v2 = values[b-1]
-
-    true_percent = round(min(v1, v2) / max(v1, v2) * 100)
+    median_val = statistics.median(values)
 
     return {
         "chart_id": f"{chart_type}_{idx:02d}",
         "type": chart_type,
-        "values": values,
-        "labels": labels,
-        "compare": [a, b],
-        "true_percent": true_percent
+        "color": random.choice(COLORS),
+        "data": data_points,
+        "median": median_val
     }
-
 
 charts = []
 
@@ -47,10 +47,10 @@ for t in ["pie", "bar_vertical", "bar_horizontal"]:
     for i in range(1, NUM_PER_TYPE + 1):
         charts.append(generate_chart(t, i))
 
-# shuffle order for experiment randomization
 random.shuffle(charts)
 
 with open("generated_charts.json", "w") as f:
     json.dump(charts, f, indent=2)
 
 print("Generated generated_charts.json with", len(charts), "charts")
+

@@ -1,75 +1,214 @@
 <!DOCTYPE html>
-<script type="module">
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-</script>
-
 <html>
 <head>
-  <title>Pick 1 or 2</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      margin-top: 50px;
-    }
-    button {
-      font-size: 24px;
-      margin: 10px;
-      padding: 15px 30px;
-      cursor: pointer;
-    }
-    #results {
-      margin-top: 30px;
-      font-size: 20px;
-    }
-  </style>
+<meta charset="UTF-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<style>
+body{
+  font-family:Arial;
+  text-align:center;
+  margin-top:40px;
+}
+.bar,.slice{
+  cursor:pointer;
+}
+#progress{
+  font-size:20px;
+  margin-bottom:10px;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Pick 1 or 2</h1>
-<p id="counter">Selection 1 of 20</p>
-
-<button onclick="selectChoice(1)">1</button>
-<button onclick="selectChoice(2)">2</button>
-
-<div id="results"></div>
+<h2>Select the bar/slice you believe to be the median</h2>
+<div id="progress"></div>
 
 <script>
-let selections = [];
-let round = 1;
-const maxRounds = 20;
+const width=520;
+const height=360;
+const margin={top:40,right:40,bottom:40,left:40};
 
-function selectChoice(num) {
-  if (round > maxRounds) return;
+let charts=[];
+let index=0;
+let results=[];
 
-  selections.push(num);
-  round++;
+d3.json("generated_charts.json").then(data=>{
+  charts=data;
+  drawChart();
+});
 
-  if (round > maxRounds) {
-    showResults();
-    saveResults();
-  } else {
-    document.getElementById("counter").textContent =
-      `Selection ${round} of ${maxRounds}`;
+function drawChart(){
+  d3.select("svg").remove();
+
+  if(index>=charts.length){
+    finishExperiment();
+    return;
   }
+
+  const chart=charts[index];
+
+  d3.select("#progress")
+    .text(`Chart ${index+1} of ${charts.length}`);
+
+  const svg=d3.select("body")
+    .append("svg")
+    .attr("width",width)
+    .attr("height",height);
+
+  if(chart.type==="bar_vertical") drawVertical(svg,chart);
+  if(chart.type==="bar_horizontal") drawHorizontal(svg,chart);
+  if(chart.type==="pie") drawPie(svg,chart);
 }
 
-function showResults() {
-  document.getElementById("counter").textContent = "Finished!";
-  document.getElementById("results").innerHTML =
-    "<strong>Your selections:</strong><br>" +
-    selections.join(", ");
+//vertical bar charts
+function drawVertical(svg,chart){
+
+  const x=d3.scaleBand()
+    .domain(chart.data.map(d=>d.label))
+    .range([margin.left,width-margin.right])
+    .padding(0.1);
+
+  const y=d3.scaleLinear()
+    .domain([0,d3.max(chart.data,d=>d.value)])
+    .nice()
+    .range([height-margin.bottom,margin.top]);
+
+  svg.selectAll("rect")
+    .data(chart.data)
+    .enter()
+    .append("rect")
+    .attr("class","bar")
+    .attr("x",d=>x(d.label))
+    .attr("y",d=>y(d.value))
+    .attr("width",x.bandwidth())
+    .attr("height",d=>y(0)-y(d.value))
+    .attr("fill",chart.color)
+    .on("click",(_,d)=>recordAnswer(d));
+
+  //label 1-end
+  svg.selectAll("text")
+    .data(chart.data)
+    .enter()
+    .append("text")
+    .attr("x",d=>x(d.label)+x.bandwidth()/2)
+    .attr("y",height-margin.bottom+15)
+    .attr("text-anchor","middle")
+    .text(d=>d.label);
 }
 
-async function saveResults() {
-  await fetch("/save", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ selections })
+//Horizontal bar charts
+function drawHorizontal(svg,chart){
+
+  const y=d3.scaleBand()
+    .domain(chart.data.map(d=>d.label))
+    .range([margin.top,height-margin.bottom])
+    .padding(0.1);
+
+  const x=d3.scaleLinear()
+    .domain([0,d3.max(chart.data,d=>d.value)])
+    .nice()
+    .range([margin.left,width-margin.right]);
+
+  svg.selectAll("rect")
+    .data(chart.data)
+    .enter()
+    .append("rect")
+    .attr("class","bar")
+    .attr("y",d=>y(d.label))
+    .attr("x",margin.left)
+    .attr("width",d=>x(d.value)-margin.left)
+    .attr("height",y.bandwidth())
+    .attr("fill",chart.color)
+    .on("click",(_,d)=>recordAnswer(d));
+
+  svg.selectAll("text")
+    .data(chart.data)
+    .enter()
+    .append("text")
+    .attr("x",margin.left-5)
+    .attr("y",d=>y(d.label)+y.bandwidth()/2)
+    .attr("text-anchor","end")
+    .attr("dominant-baseline","middle")
+    .text(d=>d.label);
+}
+
+//Pie charts
+function drawPie(svg,chart){
+
+  const radius=Math.min(width,height)/2-30;
+
+  const g=svg.append("g")
+    .attr("transform",`translate(${width/2},${height/2})`);
+
+  const pie=d3.pie().value(d=>d.value)(chart.data);
+  const arc=d3.arc().innerRadius(0).outerRadius(radius);
+  const labelArc=d3.arc().innerRadius(radius/2).outerRadius(radius/2);
+
+  g.selectAll("path")
+    .data(pie)
+    .enter()
+    .append("path")
+    .attr("class","slice")
+    .attr("d",arc)
+    .attr("fill",chart.color)
+    .attr("stroke","white")
+    .on("click",(_,d)=>recordAnswer(d.data));
+
+  g.selectAll("text")
+    .data(pie)
+    .enter()
+    .append("text")
+    .attr("transform",d=>`translate(${labelArc.centroid(d)})`)
+    .attr("text-anchor","middle")
+    .attr("dominant-baseline","middle")
+    .text(d=>d.data.label);
+}
+
+//Save answers
+function recordAnswer(d){
+
+  const chart=charts[index];
+
+  results.push({
+    chart_id:chart.chart_id,
+    chosen_label:d.label,
+    chosen_value:d.value,
+    correct_median:chart.median,
+    correct: d.value===chart.median
   });
+
+  index++;
+  drawChart();
+}
+
+//end and download csv
+function finishExperiment(){
+  d3.select("svg").remove();
+  d3.select("#progress").text("Finished!");
+
+  const correct=results.filter(r=>r.correct).length;
+
+  downloadCSV();
+}
+
+//CSV downloads from browser
+function downloadCSV(){
+
+  const header=Object.keys(results[0]).join(",");
+  const rows=results.map(r=>Object.values(r).join(","));
+  const csv=[header,...rows].join("\n");
+
+  const blob=new Blob([csv],{type:"text/csv"});
+  const url=URL.createObjectURL(blob);
+
+  const a=document.createElement("a");
+  a.href=url;
+  a.download="results.csv";
+  a.click();
 }
 </script>
-
 
 </body>
 </html>
