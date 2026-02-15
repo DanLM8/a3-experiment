@@ -1,9 +1,75 @@
 <!DOCTYPE html>
-<div id="container"></div>
 <script type="module">
-
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-
-console.log(d3);
-
 </script>
+
+<html>
+<head>
+  <title>Pick 1 or 2</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      font-size: 24px;
+      margin: 10px;
+      padding: 15px 30px;
+      cursor: pointer;
+    }
+    #results {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Pick 1 or 2</h1>
+<p id="counter">Selection 1 of 20</p>
+
+<button onclick="selectChoice(1)">1</button>
+<button onclick="selectChoice(2)">2</button>
+
+<div id="results"></div>
+
+<script>
+let selections = [];
+let round = 1;
+const maxRounds = 20;
+
+function selectChoice(num) {
+  if (round > maxRounds) return;
+
+  selections.push(num);
+  round++;
+
+  if (round > maxRounds) {
+    showResults();
+    saveResults();
+  } else {
+    document.getElementById("counter").textContent =
+      `Selection ${round} of ${maxRounds}`;
+  }
+}
+
+function showResults() {
+  document.getElementById("counter").textContent = "Finished!";
+  document.getElementById("results").innerHTML =
+    "<strong>Your selections:</strong><br>" +
+    selections.join(", ");
+}
+
+async function saveResults() {
+  await fetch("/save", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ selections })
+  });
+}
+</script>
+
+
+</body>
+</html>
