@@ -1,68 +1,20 @@
 [
   {
-    "chart_id": "pie_10",
-    "type": "pie",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 17
-      },
-      {
-        "label": 2,
-        "value": 65
-      },
-      {
-        "label": 3,
-        "value": 66
-      },
-      {
-        "label": 4,
-        "value": 65
-      },
-      {
-        "label": 5,
-        "value": 16
-      },
-      {
-        "label": 6,
-        "value": 85
-      },
-      {
-        "label": 7,
-        "value": 83
-      },
-      {
-        "label": 8,
-        "value": 99
-      },
-      {
-        "label": 9,
-        "value": 50
-      },
-      {
-        "label": 10,
-        "value": 83
-      }
-    ],
-    "median": 65.5
-  },
-  {
-    "chart_id": "bar_vertical_18",
+    "chart_id": "bar_vertical_06",
     "type": "bar_vertical",
-    "color": "#6a1b9a",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 97
+        "value": 25
       },
       {
         "label": 2,
-        "value": 91
+        "value": 64
       },
       {
         "label": 3,
-        "value": 91
+        "value": 97
       },
       {
         "label": 4,
@@ -70,259 +22,155 @@
       },
       {
         "label": 5,
-        "value": 48
+        "value": 68
       },
       {
         "label": 6,
-        "value": 45
+        "value": 79
       },
       {
         "label": 7,
-        "value": 15
+        "value": 10
       },
       {
         "label": 8,
-        "value": 62
-      }
-    ],
-    "median": 76.5
-  },
-  {
-    "chart_id": "bar_vertical_03",
-    "type": "bar_vertical",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 40
-      },
-      {
-        "label": 2,
-        "value": 92
-      },
-      {
-        "label": 3,
-        "value": 36
-      },
-      {
-        "label": 4,
-        "value": 24
-      },
-      {
-        "label": 5,
-        "value": 53
-      }
-    ],
-    "median": 40
-  },
-  {
-    "chart_id": "pie_15",
-    "type": "pie",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 41
-      },
-      {
-        "label": 2,
-        "value": 31
-      },
-      {
-        "label": 3,
-        "value": 34
-      },
-      {
-        "label": 4,
-        "value": 29
-      },
-      {
-        "label": 5,
-        "value": 52
-      },
-      {
-        "label": 6,
-        "value": 56
-      }
-    ],
-    "median": 37.5
-  },
-  {
-    "chart_id": "pie_09",
-    "type": "pie",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 63
-      },
-      {
-        "label": 2,
-        "value": 29
-      },
-      {
-        "label": 3,
-        "value": 67
-      },
-      {
-        "label": 4,
-        "value": 22
-      },
-      {
-        "label": 5,
-        "value": 36
-      },
-      {
-        "label": 6,
-        "value": 60
-      },
-      {
-        "label": 7,
-        "value": 81
-      },
-      {
-        "label": 8,
-        "value": 26
+        "value": 13
       },
       {
         "label": 9,
-        "value": 43
-      },
-      {
-        "label": 10,
-        "value": 39
+        "value": 80
       }
     ],
-    "median": 41.0
+    "median": 68
   },
   {
-    "chart_id": "bar_horizontal_17",
-    "type": "bar_horizontal",
-    "color": "#2e7d32",
+    "chart_id": "pie_17",
+    "type": "pie",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 26
+        "value": 49
       },
       {
         "label": 2,
-        "value": 38
+        "value": 34
       },
       {
         "label": 3,
-        "value": 65
+        "value": 57
       },
       {
         "label": 4,
-        "value": 41
-      },
-      {
-        "label": 5,
         "value": 45
       },
       {
-        "label": 6,
-        "value": 43
-      },
-      {
-        "label": 7,
-        "value": 77
-      }
-    ],
-    "median": 43
-  },
-  {
-    "chart_id": "bar_horizontal_11",
-    "type": "bar_horizontal",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 31
-      },
-      {
-        "label": 2,
-        "value": 6
-      },
-      {
-        "label": 3,
-        "value": 93
-      },
-      {
-        "label": 4,
-        "value": 98
-      },
-      {
         "label": 5,
-        "value": 41
+        "value": 15
       },
       {
         "label": 6,
-        "value": 59
+        "value": 94
       },
       {
         "label": 7,
-        "value": 37
+        "value": 64
       },
       {
         "label": 8,
-        "value": 8
+        "value": 67
+      },
+      {
+        "label": 9,
+        "value": 94
+      },
+      {
+        "label": 10,
+        "value": 38
       }
     ],
-    "median": 39.0
+    "median": 53.0
   },
   {
     "chart_id": "bar_horizontal_08",
     "type": "bar_horizontal",
-    "color": "#2e7d32",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 73
+        "value": 23
       },
       {
         "label": 2,
-        "value": 16
+        "value": 69
       },
       {
         "label": 3,
-        "value": 93
+        "value": 68
       },
       {
         "label": 4,
-        "value": 54
+        "value": 28
       },
       {
         "label": 5,
-        "value": 65
+        "value": 76
       },
       {
         "label": 6,
-        "value": 75
-      },
-      {
-        "label": 7,
-        "value": 52
-      },
-      {
-        "label": 8,
-        "value": 83
-      },
-      {
-        "label": 9,
-        "value": 77
+        "value": 24
       }
     ],
-    "median": 73
+    "median": 48.0
   },
   {
-    "chart_id": "bar_vertical_02",
-    "type": "bar_vertical",
-    "color": "#6a1b9a",
+    "chart_id": "pie_11",
+    "type": "pie",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 33
+        "value": 22
+      },
+      {
+        "label": 2,
+        "value": 40
+      },
+      {
+        "label": 3,
+        "value": 11
+      },
+      {
+        "label": 4,
+        "value": 61
+      },
+      {
+        "label": 5,
+        "value": 82
+      },
+      {
+        "label": 6,
+        "value": 38
+      },
+      {
+        "label": 7,
+        "value": 90
+      },
+      {
+        "label": 8,
+        "value": 85
+      }
+    ],
+    "median": 50.5
+  },
+  {
+    "chart_id": "bar_horizontal_05",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 32
       },
       {
         "label": 2,
@@ -330,139 +178,51 @@
       },
       {
         "label": 3,
-        "value": 33
+        "value": 8
       },
       {
         "label": 4,
-        "value": 90
+        "value": 36
       },
       {
         "label": 5,
-        "value": 33
-      },
-      {
-        "label": 6,
-        "value": 77
-      },
-      {
-        "label": 7,
-        "value": 79
-      }
-    ],
-    "median": 33
-  },
-  {
-    "chart_id": "bar_horizontal_18",
-    "type": "bar_horizontal",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 23
-      },
-      {
-        "label": 2,
-        "value": 59
-      },
-      {
-        "label": 3,
-        "value": 61
-      },
-      {
-        "label": 4,
-        "value": 17
-      },
-      {
-        "label": 5,
-        "value": 39
-      }
-    ],
-    "median": 39
-  },
-  {
-    "chart_id": "bar_horizontal_16",
-    "type": "bar_horizontal",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 65
-      },
-      {
-        "label": 2,
-        "value": 17
-      },
-      {
-        "label": 3,
-        "value": 28
-      },
-      {
-        "label": 4,
-        "value": 16
-      },
-      {
-        "label": 5,
-        "value": 69
-      }
-    ],
-    "median": 28
-  },
-  {
-    "chart_id": "bar_vertical_15",
-    "type": "bar_vertical",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 58
-      },
-      {
-        "label": 2,
-        "value": 69
-      },
-      {
-        "label": 3,
         "value": 32
       },
       {
-        "label": 4,
-        "value": 45
-      },
-      {
-        "label": 5,
-        "value": 86
-      },
-      {
         "label": 6,
-        "value": 10
+        "value": 82
       },
       {
         "label": 7,
-        "value": 5
+        "value": 13
       },
       {
         "label": 8,
-        "value": 21
+        "value": 77
       },
       {
         "label": 9,
-        "value": 24
+        "value": 26
+      },
+      {
+        "label": 10,
+        "value": 17
       }
     ],
-    "median": 32
+    "median": 29.0
   },
   {
-    "chart_id": "bar_vertical_16",
-    "type": "bar_vertical",
-    "color": "#c62828",
+    "chart_id": "bar_horizontal_11",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 73
+        "value": 74
       },
       {
         "label": 2,
-        "value": 52
+        "value": 89
       },
       {
         "label": 3,
@@ -470,231 +230,55 @@
       },
       {
         "label": 4,
-        "value": 74
-      },
-      {
-        "label": 5,
-        "value": 45
-      },
-      {
-        "label": 6,
-        "value": 33
-      }
-    ],
-    "median": 51.0
-  },
-  {
-    "chart_id": "bar_horizontal_07",
-    "type": "bar_horizontal",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 53
-      },
-      {
-        "label": 2,
-        "value": 76
-      },
-      {
-        "label": 3,
-        "value": 76
-      },
-      {
-        "label": 4,
-        "value": 15
-      },
-      {
-        "label": 5,
-        "value": 64
-      },
-      {
-        "label": 6,
-        "value": 64
-      },
-      {
-        "label": 7,
-        "value": 36
-      },
-      {
-        "label": 8,
-        "value": 90
-      },
-      {
-        "label": 9,
         "value": 54
       },
       {
-        "label": 10,
-        "value": 31
-      }
-    ],
-    "median": 59.0
-  },
-  {
-    "chart_id": "pie_13",
-    "type": "pie",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 67
-      },
-      {
-        "label": 2,
-        "value": 99
-      },
-      {
-        "label": 3,
-        "value": 70
-      },
-      {
-        "label": 4,
-        "value": 16
-      },
-      {
         "label": 5,
-        "value": 20
+        "value": 24
       },
       {
         "label": 6,
-        "value": 91
+        "value": 56
       },
       {
         "label": 7,
-        "value": 66
+        "value": 26
       },
       {
         "label": 8,
-        "value": 52
+        "value": 67
       },
       {
         "label": 9,
-        "value": 62
+        "value": 83
+      },
+      {
+        "label": 10,
+        "value": 67
       }
     ],
-    "median": 66
+    "median": 61.5
   },
   {
-    "chart_id": "pie_03",
-    "type": "pie",
-    "color": "#2e7d32",
+    "chart_id": "bar_horizontal_20",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 97
+        "value": 55
       },
       {
         "label": 2,
-        "value": 79
-      },
-      {
-        "label": 3,
-        "value": 66
-      },
-      {
-        "label": 4,
-        "value": 68
-      },
-      {
-        "label": 5,
-        "value": 58
-      },
-      {
-        "label": 6,
-        "value": 31
-      },
-      {
-        "label": 7,
-        "value": 28
-      }
-    ],
-    "median": 66
-  },
-  {
-    "chart_id": "bar_vertical_11",
-    "type": "bar_vertical",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 76
-      },
-      {
-        "label": 2,
-        "value": 23
-      },
-      {
-        "label": 3,
-        "value": 28
-      },
-      {
-        "label": 4,
         "value": 100
       },
       {
-        "label": 5,
-        "value": 64
-      },
-      {
-        "label": 6,
-        "value": 11
-      },
-      {
-        "label": 7,
-        "value": 12
-      }
-    ],
-    "median": 28
-  },
-  {
-    "chart_id": "bar_vertical_13",
-    "type": "bar_vertical",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 16
-      },
-      {
-        "label": 2,
-        "value": 25
-      },
-      {
         "label": 3,
-        "value": 27
+        "value": 98
       },
       {
         "label": 4,
-        "value": 58
-      },
-      {
-        "label": 5,
-        "value": 79
-      }
-    ],
-    "median": 27
-  },
-  {
-    "chart_id": "bar_horizontal_05",
-    "type": "bar_horizontal",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 64
-      },
-      {
-        "label": 2,
-        "value": 84
-      },
-      {
-        "label": 3,
-        "value": 61
-      },
-      {
-        "label": 4,
-        "value": 37
+        "value": 72
       },
       {
         "label": 5,
@@ -702,75 +286,111 @@
       },
       {
         "label": 6,
-        "value": 27
+        "value": 53
       },
       {
         "label": 7,
-        "value": 97
+        "value": 13
+      }
+    ],
+    "median": 55
+  },
+  {
+    "chart_id": "bar_horizontal_04",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 29
+      },
+      {
+        "label": 2,
+        "value": 6
+      },
+      {
+        "label": 3,
+        "value": 29
+      },
+      {
+        "label": 4,
+        "value": 24
+      },
+      {
+        "label": 5,
+        "value": 33
+      },
+      {
+        "label": 6,
+        "value": 39
+      },
+      {
+        "label": 7,
+        "value": 12
       },
       {
         "label": 8,
         "value": 48
-      },
-      {
-        "label": 9,
-        "value": 68
       }
     ],
-    "median": 61
+    "median": 29.0
   },
   {
-    "chart_id": "pie_19",
-    "type": "pie",
-    "color": "#ef6c00",
+    "chart_id": "bar_horizontal_07",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 99
+        "value": 52
       },
       {
         "label": 2,
-        "value": 38
+        "value": 76
       },
       {
         "label": 3,
-        "value": 17
+        "value": 6
       },
       {
         "label": 4,
-        "value": 53
+        "value": 98
       },
       {
         "label": 5,
-        "value": 19
+        "value": 96
       },
       {
         "label": 6,
-        "value": 47
+        "value": 74
       },
       {
         "label": 7,
-        "value": 61
+        "value": 50
       },
       {
         "label": 8,
-        "value": 80
+        "value": 29
       },
       {
         "label": 9,
-        "value": 27
+        "value": 37
+      },
+      {
+        "label": 10,
+        "value": 9
       }
     ],
-    "median": 47
+    "median": 51.0
   },
   {
-    "chart_id": "bar_horizontal_20",
-    "type": "bar_horizontal",
-    "color": "#ef6c00",
+    "chart_id": "pie_01",
+    "type": "pie",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 94
+        "value": 9
       },
       {
         "label": 2,
@@ -778,99 +398,119 @@
       },
       {
         "label": 3,
-        "value": 75
+        "value": 22
       },
       {
         "label": 4,
-        "value": 6
+        "value": 23
       },
       {
         "label": 5,
+        "value": 64
+      }
+    ],
+    "median": 23
+  },
+  {
+    "chart_id": "bar_vertical_09",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 96
+      },
+      {
+        "label": 2,
+        "value": 14
+      },
+      {
+        "label": 3,
+        "value": 55
+      },
+      {
+        "label": 4,
         "value": 39
       },
       {
+        "label": 5,
+        "value": 51
+      },
+      {
         "label": 6,
-        "value": 33
+        "value": 73
       },
       {
         "label": 7,
-        "value": 34
+        "value": 26
       },
       {
         "label": 8,
-        "value": 82
-      },
-      {
-        "label": 9,
-        "value": 9
-      }
-    ],
-    "median": 39
-  },
-  {
-    "chart_id": "pie_20",
-    "type": "pie",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
         "value": 41
       },
       {
-        "label": 2,
-        "value": 28
-      },
-      {
-        "label": 3,
-        "value": 97
-      },
-      {
-        "label": 4,
-        "value": 90
-      },
-      {
-        "label": 5,
-        "value": 43
-      },
-      {
-        "label": 6,
-        "value": 18
-      },
-      {
-        "label": 7,
-        "value": 58
-      },
-      {
-        "label": 8,
-        "value": 88
-      },
-      {
         "label": 9,
-        "value": 84
+        "value": 100
       },
       {
         "label": 10,
-        "value": 99
+        "value": 12
       }
     ],
-    "median": 71.0
+    "median": 46.0
   },
   {
-    "chart_id": "pie_04",
-    "type": "pie",
-    "color": "#ef6c00",
+    "chart_id": "bar_horizontal_14",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 25
+        "value": 95
       },
       {
         "label": 2,
-        "value": 29
+        "value": 33
       },
       {
         "label": 3,
-        "value": 60
+        "value": 86
+      },
+      {
+        "label": 4,
+        "value": 39
+      },
+      {
+        "label": 5,
+        "value": 77
+      },
+      {
+        "label": 6,
+        "value": 84
+      },
+      {
+        "label": 7,
+        "value": 56
+      }
+    ],
+    "median": 77
+  },
+  {
+    "chart_id": "bar_vertical_03",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 77
+      },
+      {
+        "label": 2,
+        "value": 33
+      },
+      {
+        "label": 3,
+        "value": 35
       },
       {
         "label": 4,
@@ -878,551 +518,31 @@
       },
       {
         "label": 5,
-        "value": 80
-      },
-      {
-        "label": 6,
-        "value": 15
-      },
-      {
-        "label": 7,
-        "value": 6
-      },
-      {
-        "label": 8,
-        "value": 58
-      },
-      {
-        "label": 9,
-        "value": 50
-      },
-      {
-        "label": 10,
-        "value": 72
-      }
-    ],
-    "median": 54.0
-  },
-  {
-    "chart_id": "pie_16",
-    "type": "pie",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 94
-      },
-      {
-        "label": 2,
-        "value": 12
-      },
-      {
-        "label": 3,
-        "value": 42
-      },
-      {
-        "label": 4,
-        "value": 77
-      },
-      {
-        "label": 5,
-        "value": 92
-      },
-      {
-        "label": 6,
-        "value": 33
-      },
-      {
-        "label": 7,
-        "value": 64
-      }
-    ],
-    "median": 64
-  },
-  {
-    "chart_id": "pie_01",
-    "type": "pie",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 34
-      },
-      {
-        "label": 2,
-        "value": 52
-      },
-      {
-        "label": 3,
-        "value": 39
-      },
-      {
-        "label": 4,
-        "value": 62
-      },
-      {
-        "label": 5,
-        "value": 58
-      },
-      {
-        "label": 6,
-        "value": 42
-      },
-      {
-        "label": 7,
-        "value": 92
-      },
-      {
-        "label": 8,
-        "value": 68
-      }
-    ],
-    "median": 55.0
-  },
-  {
-    "chart_id": "bar_vertical_19",
-    "type": "bar_vertical",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 32
-      },
-      {
-        "label": 2,
-        "value": 35
-      },
-      {
-        "label": 3,
-        "value": 53
-      },
-      {
-        "label": 4,
-        "value": 84
-      },
-      {
-        "label": 5,
-        "value": 63
-      },
-      {
-        "label": 6,
-        "value": 42
-      },
-      {
-        "label": 7,
-        "value": 96
-      },
-      {
-        "label": 8,
-        "value": 12
-      }
-    ],
-    "median": 47.5
-  },
-  {
-    "chart_id": "bar_horizontal_03",
-    "type": "bar_horizontal",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 93
-      },
-      {
-        "label": 2,
-        "value": 49
-      },
-      {
-        "label": 3,
-        "value": 55
-      },
-      {
-        "label": 4,
-        "value": 84
-      },
-      {
-        "label": 5,
-        "value": 85
-      },
-      {
-        "label": 6,
-        "value": 52
-      }
-    ],
-    "median": 69.5
-  },
-  {
-    "chart_id": "bar_vertical_17",
-    "type": "bar_vertical",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 26
-      },
-      {
-        "label": 2,
-        "value": 23
-      },
-      {
-        "label": 3,
-        "value": 83
-      },
-      {
-        "label": 4,
-        "value": 53
-      },
-      {
-        "label": 5,
-        "value": 41
-      },
-      {
-        "label": 6,
-        "value": 55
-      },
-      {
-        "label": 7,
-        "value": 33
-      }
-    ],
-    "median": 41
-  },
-  {
-    "chart_id": "bar_horizontal_02",
-    "type": "bar_horizontal",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 79
-      },
-      {
-        "label": 2,
-        "value": 34
-      },
-      {
-        "label": 3,
-        "value": 38
-      },
-      {
-        "label": 4,
-        "value": 78
-      },
-      {
-        "label": 5,
-        "value": 98
-      },
-      {
-        "label": 6,
-        "value": 30
-      },
-      {
-        "label": 7,
-        "value": 10
-      },
-      {
-        "label": 8,
-        "value": 86
-      }
-    ],
-    "median": 58.0
-  },
-  {
-    "chart_id": "pie_08",
-    "type": "pie",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 99
-      },
-      {
-        "label": 2,
-        "value": 84
-      },
-      {
-        "label": 3,
-        "value": 92
-      },
-      {
-        "label": 4,
-        "value": 78
-      },
-      {
-        "label": 5,
-        "value": 90
-      },
-      {
-        "label": 6,
-        "value": 71
-      }
-    ],
-    "median": 87.0
-  },
-  {
-    "chart_id": "bar_horizontal_13",
-    "type": "bar_horizontal",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 36
-      },
-      {
-        "label": 2,
-        "value": 84
-      },
-      {
-        "label": 3,
-        "value": 55
-      },
-      {
-        "label": 4,
-        "value": 40
-      },
-      {
-        "label": 5,
-        "value": 24
-      },
-      {
-        "label": 6,
-        "value": 77
-      }
-    ],
-    "median": 47.5
-  },
-  {
-    "chart_id": "bar_vertical_12",
-    "type": "bar_vertical",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 55
-      },
-      {
-        "label": 2,
-        "value": 44
-      },
-      {
-        "label": 3,
-        "value": 98
-      },
-      {
-        "label": 4,
-        "value": 80
-      },
-      {
-        "label": 5,
-        "value": 6
-      },
-      {
-        "label": 6,
-        "value": 36
-      },
-      {
-        "label": 7,
-        "value": 26
-      }
-    ],
-    "median": 44
-  },
-  {
-    "chart_id": "bar_vertical_07",
-    "type": "bar_vertical",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 68
-      },
-      {
-        "label": 2,
-        "value": 5
-      },
-      {
-        "label": 3,
-        "value": 85
-      },
-      {
-        "label": 4,
-        "value": 11
-      },
-      {
-        "label": 5,
-        "value": 5
-      },
-      {
-        "label": 6,
-        "value": 98
-      },
-      {
-        "label": 7,
-        "value": 95
-      },
-      {
-        "label": 8,
-        "value": 26
-      }
-    ],
-    "median": 47.0
-  },
-  {
-    "chart_id": "pie_07",
-    "type": "pie",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 92
-      },
-      {
-        "label": 2,
-        "value": 5
-      },
-      {
-        "label": 3,
-        "value": 65
-      },
-      {
-        "label": 4,
-        "value": 43
-      },
-      {
-        "label": 5,
-        "value": 76
-      },
-      {
-        "label": 6,
-        "value": 5
-      },
-      {
-        "label": 7,
-        "value": 66
-      }
-    ],
-    "median": 65
-  },
-  {
-    "chart_id": "bar_vertical_09",
-    "type": "bar_vertical",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 92
-      },
-      {
-        "label": 2,
-        "value": 76
-      },
-      {
-        "label": 3,
-        "value": 5
-      },
-      {
-        "label": 4,
-        "value": 76
-      },
-      {
-        "label": 5,
-        "value": 36
-      },
-      {
-        "label": 6,
-        "value": 14
-      }
-    ],
-    "median": 56.0
-  },
-  {
-    "chart_id": "bar_horizontal_14",
-    "type": "bar_horizontal",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 53
-      },
-      {
-        "label": 2,
-        "value": 46
-      },
-      {
-        "label": 3,
-        "value": 45
-      },
-      {
-        "label": 4,
-        "value": 98
-      },
-      {
-        "label": 5,
-        "value": 76
-      },
-      {
-        "label": 6,
-        "value": 37
-      },
-      {
-        "label": 7,
-        "value": 43
-      },
-      {
-        "label": 8,
-        "value": 41
-      },
-      {
-        "label": 9,
-        "value": 93
-      },
-      {
-        "label": 10,
         "value": 19
+      },
+      {
+        "label": 6,
+        "value": 100
+      },
+      {
+        "label": 7,
+        "value": 98
       }
     ],
-    "median": 45.5
+    "median": 73
   },
   {
-    "chart_id": "bar_horizontal_06",
-    "type": "bar_horizontal",
-    "color": "#c62828",
+    "chart_id": "bar_vertical_18",
+    "type": "bar_vertical",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 85
-      },
-      {
-        "label": 2,
-        "value": 70
-      },
-      {
-        "label": 3,
-        "value": 31
-      },
-      {
-        "label": 4,
-        "value": 5
-      },
-      {
-        "label": 5,
         "value": 82
-      }
-    ],
-    "median": 70
-  },
-  {
-    "chart_id": "bar_horizontal_10",
-    "type": "bar_horizontal",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 97
       },
       {
         "label": 2,
-        "value": 27
+        "value": 19
       },
       {
         "label": 3,
@@ -1430,39 +550,223 @@
       },
       {
         "label": 4,
-        "value": 59
+        "value": 22
       },
       {
         "label": 5,
-        "value": 82
+        "value": 15
       },
       {
         "label": 6,
-        "value": 63
+        "value": 72
       },
       {
         "label": 7,
-        "value": 80
+        "value": 67
       },
       {
         "label": 8,
-        "value": 26
+        "value": 79
+      },
+      {
+        "label": 9,
+        "value": 32
       }
     ],
-    "median": 61.0
+    "median": 32
   },
   {
-    "chart_id": "bar_vertical_08",
+    "chart_id": "bar_vertical_16",
     "type": "bar_vertical",
-    "color": "#6a1b9a",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 8
+        "value": 46
       },
       {
         "label": 2,
-        "value": 51
+        "value": 65
+      },
+      {
+        "label": 3,
+        "value": 75
+      },
+      {
+        "label": 4,
+        "value": 56
+      },
+      {
+        "label": 5,
+        "value": 98
+      },
+      {
+        "label": 6,
+        "value": 24
+      },
+      {
+        "label": 7,
+        "value": 25
+      },
+      {
+        "label": 8,
+        "value": 42
+      },
+      {
+        "label": 9,
+        "value": 63
+      }
+    ],
+    "median": 56
+  },
+  {
+    "chart_id": "bar_vertical_10",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 56
+      },
+      {
+        "label": 2,
+        "value": 67
+      },
+      {
+        "label": 3,
+        "value": 66
+      },
+      {
+        "label": 4,
+        "value": 42
+      },
+      {
+        "label": 5,
+        "value": 28
+      },
+      {
+        "label": 6,
+        "value": 35
+      }
+    ],
+    "median": 49.0
+  },
+  {
+    "chart_id": "pie_05",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 82
+      },
+      {
+        "label": 2,
+        "value": 60
+      },
+      {
+        "label": 3,
+        "value": 25
+      },
+      {
+        "label": 4,
+        "value": 71
+      },
+      {
+        "label": 5,
+        "value": 80
+      }
+    ],
+    "median": 71
+  },
+  {
+    "chart_id": "bar_horizontal_10",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 70
+      },
+      {
+        "label": 2,
+        "value": 28
+      },
+      {
+        "label": 3,
+        "value": 42
+      },
+      {
+        "label": 4,
+        "value": 46
+      },
+      {
+        "label": 5,
+        "value": 16
+      },
+      {
+        "label": 6,
+        "value": 35
+      },
+      {
+        "label": 7,
+        "value": 92
+      },
+      {
+        "label": 8,
+        "value": 33
+      },
+      {
+        "label": 9,
+        "value": 43
+      },
+      {
+        "label": 10,
+        "value": 44
+      }
+    ],
+    "median": 42.5
+  },
+  {
+    "chart_id": "bar_horizontal_09",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 24
+      },
+      {
+        "label": 2,
+        "value": 50
+      },
+      {
+        "label": 3,
+        "value": 65
+      },
+      {
+        "label": 4,
+        "value": 97
+      },
+      {
+        "label": 5,
+        "value": 70
+      }
+    ],
+    "median": 65
+  },
+  {
+    "chart_id": "pie_20",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 43
+      },
+      {
+        "label": 2,
+        "value": 97
       },
       {
         "label": 3,
@@ -1470,15 +774,51 @@
       },
       {
         "label": 4,
-        "value": 54
+        "value": 53
       },
       {
         "label": 5,
-        "value": 78
+        "value": 45
       },
       {
         "label": 6,
-        "value": 35
+        "value": 14
+      },
+      {
+        "label": 7,
+        "value": 97
+      }
+    ],
+    "median": 53
+  },
+  {
+    "chart_id": "pie_14",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 47
+      },
+      {
+        "label": 2,
+        "value": 83
+      },
+      {
+        "label": 3,
+        "value": 31
+      },
+      {
+        "label": 4,
+        "value": 89
+      },
+      {
+        "label": 5,
+        "value": 13
+      },
+      {
+        "label": 6,
+        "value": 97
       },
       {
         "label": 7,
@@ -1488,273 +828,21 @@
     "median": 54
   },
   {
-    "chart_id": "pie_05",
-    "type": "pie",
-    "color": "#6a1b9a",
+    "chart_id": "bar_horizontal_13",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 74
+        "value": 94
       },
       {
         "label": 2,
-        "value": 34
-      },
-      {
-        "label": 3,
-        "value": 66
-      },
-      {
-        "label": 4,
         "value": 72
       },
       {
-        "label": 5,
-        "value": 9
-      }
-    ],
-    "median": 66
-  },
-  {
-    "chart_id": "bar_vertical_05",
-    "type": "bar_vertical",
-    "color": "#c62828",
-    "data": [
-      {
-        "label": 1,
-        "value": 80
-      },
-      {
-        "label": 2,
-        "value": 77
-      },
-      {
         "label": 3,
-        "value": 78
-      },
-      {
-        "label": 4,
-        "value": 56
-      },
-      {
-        "label": 5,
-        "value": 61
-      },
-      {
-        "label": 6,
-        "value": 92
-      },
-      {
-        "label": 7,
-        "value": 19
-      },
-      {
-        "label": 8,
-        "value": 53
-      }
-    ],
-    "median": 69.0
-  },
-  {
-    "chart_id": "bar_horizontal_04",
-    "type": "bar_horizontal",
-    "color": "#1976d2",
-    "data": [
-      {
-        "label": 1,
-        "value": 73
-      },
-      {
-        "label": 2,
-        "value": 8
-      },
-      {
-        "label": 3,
-        "value": 77
-      },
-      {
-        "label": 4,
-        "value": 93
-      },
-      {
-        "label": 5,
-        "value": 80
-      },
-      {
-        "label": 6,
-        "value": 17
-      },
-      {
-        "label": 7,
-        "value": 92
-      },
-      {
-        "label": 8,
-        "value": 20
-      }
-    ],
-    "median": 75.0
-  },
-  {
-    "chart_id": "pie_14",
-    "type": "pie",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 52
-      },
-      {
-        "label": 2,
-        "value": 23
-      },
-      {
-        "label": 3,
-        "value": 12
-      },
-      {
-        "label": 4,
-        "value": 32
-      },
-      {
-        "label": 5,
-        "value": 25
-      },
-      {
-        "label": 6,
-        "value": 40
-      },
-      {
-        "label": 7,
-        "value": 41
-      }
-    ],
-    "median": 32
-  },
-  {
-    "chart_id": "bar_horizontal_01",
-    "type": "bar_horizontal",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 46
-      },
-      {
-        "label": 2,
-        "value": 100
-      },
-      {
-        "label": 3,
-        "value": 100
-      },
-      {
-        "label": 4,
-        "value": 78
-      },
-      {
-        "label": 5,
-        "value": 36
-      },
-      {
-        "label": 6,
-        "value": 43
-      },
-      {
-        "label": 7,
-        "value": 71
-      },
-      {
-        "label": 8,
-        "value": 28
-      },
-      {
-        "label": 9,
-        "value": 19
-      }
-    ],
-    "median": 46
-  },
-  {
-    "chart_id": "bar_horizontal_19",
-    "type": "bar_horizontal",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 72
-      },
-      {
-        "label": 2,
-        "value": 22
-      },
-      {
-        "label": 3,
-        "value": 97
-      },
-      {
-        "label": 4,
-        "value": 6
-      },
-      {
-        "label": 5,
-        "value": 26
-      },
-      {
-        "label": 6,
-        "value": 77
-      },
-      {
-        "label": 7,
-        "value": 30
-      }
-    ],
-    "median": 30
-  },
-  {
-    "chart_id": "bar_vertical_20",
-    "type": "bar_vertical",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 61
-      },
-      {
-        "label": 2,
-        "value": 26
-      },
-      {
-        "label": 3,
-        "value": 100
-      },
-      {
-        "label": 4,
-        "value": 38
-      },
-      {
-        "label": 5,
-        "value": 67
-      }
-    ],
-    "median": 61
-  },
-  {
-    "chart_id": "pie_06",
-    "type": "pie",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 72
-      },
-      {
-        "label": 2,
-        "value": 90
-      },
-      {
-        "label": 3,
-        "value": 44
+        "value": 33
       },
       {
         "label": 4,
@@ -1762,119 +850,7 @@
       },
       {
         "label": 5,
-        "value": 66
-      },
-      {
-        "label": 6,
-        "value": 49
-      },
-      {
-        "label": 7,
-        "value": 39
-      },
-      {
-        "label": 8,
-        "value": 95
-      }
-    ],
-    "median": 69.0
-  },
-  {
-    "chart_id": "bar_vertical_01",
-    "type": "bar_vertical",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 56
-      },
-      {
-        "label": 2,
-        "value": 18
-      },
-      {
-        "label": 3,
-        "value": 58
-      },
-      {
-        "label": 4,
-        "value": 71
-      },
-      {
-        "label": 5,
-        "value": 27
-      },
-      {
-        "label": 6,
-        "value": 80
-      }
-    ],
-    "median": 57.0
-  },
-  {
-    "chart_id": "bar_vertical_14",
-    "type": "bar_vertical",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 66
-      },
-      {
-        "label": 2,
-        "value": 46
-      },
-      {
-        "label": 3,
-        "value": 84
-      },
-      {
-        "label": 4,
-        "value": 44
-      },
-      {
-        "label": 5,
-        "value": 49
-      },
-      {
-        "label": 6,
-        "value": 15
-      },
-      {
-        "label": 7,
-        "value": 67
-      },
-      {
-        "label": 8,
-        "value": 57
-      }
-    ],
-    "median": 53.0
-  },
-  {
-    "chart_id": "pie_12",
-    "type": "pie",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 38
-      },
-      {
-        "label": 2,
-        "value": 97
-      },
-      {
-        "label": 3,
-        "value": 19
-      },
-      {
-        "label": 4,
-        "value": 40
-      },
-      {
-        "label": 5,
-        "value": 95
+        "value": 21
       },
       {
         "label": 6,
@@ -1882,247 +858,123 @@
       },
       {
         "label": 7,
-        "value": 35
-      }
-    ],
-    "median": 38
-  },
-  {
-    "chart_id": "bar_horizontal_09",
-    "type": "bar_horizontal",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 25
-      },
-      {
-        "label": 2,
-        "value": 75
-      },
-      {
-        "label": 3,
-        "value": 85
-      },
-      {
-        "label": 4,
-        "value": 61
-      },
-      {
-        "label": 5,
-        "value": 59
-      },
-      {
-        "label": 6,
-        "value": 24
-      },
-      {
-        "label": 7,
-        "value": 71
+        "value": 12
       },
       {
         "label": 8,
-        "value": 55
+        "value": 83
+      },
+      {
+        "label": 9,
+        "value": 91
       }
     ],
-    "median": 60.0
+    "median": 72
   },
   {
-    "chart_id": "pie_02",
+    "chart_id": "pie_03",
     "type": "pie",
-    "color": "#c62828",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 43
+        "value": 91
       },
       {
         "label": 2,
-        "value": 90
-      },
-      {
-        "label": 3,
-        "value": 80
-      },
-      {
-        "label": 4,
-        "value": 67
-      },
-      {
-        "label": 5,
-        "value": 76
-      },
-      {
-        "label": 6,
-        "value": 60
-      }
-    ],
-    "median": 71.5
-  },
-  {
-    "chart_id": "bar_horizontal_15",
-    "type": "bar_horizontal",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 97
-      },
-      {
-        "label": 2,
-        "value": 31
-      },
-      {
-        "label": 3,
-        "value": 10
-      },
-      {
-        "label": 4,
-        "value": 46
-      },
-      {
-        "label": 5,
-        "value": 49
-      },
-      {
-        "label": 6,
-        "value": 78
-      },
-      {
-        "label": 7,
-        "value": 55
-      },
-      {
-        "label": 8,
-        "value": 40
-      }
-    ],
-    "median": 47.5
-  },
-  {
-    "chart_id": "bar_vertical_06",
-    "type": "bar_vertical",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 63
-      },
-      {
-        "label": 2,
-        "value": 67
-      },
-      {
-        "label": 3,
-        "value": 54
-      },
-      {
-        "label": 4,
-        "value": 31
-      },
-      {
-        "label": 5,
-        "value": 36
-      },
-      {
-        "label": 6,
-        "value": 53
-      },
-      {
-        "label": 7,
-        "value": 53
-      }
-    ],
-    "median": 53
-  },
-  {
-    "chart_id": "pie_11",
-    "type": "pie",
-    "color": "#ef6c00",
-    "data": [
-      {
-        "label": 1,
-        "value": 42
-      },
-      {
-        "label": 2,
-        "value": 76
-      },
-      {
-        "label": 3,
-        "value": 10
-      },
-      {
-        "label": 4,
-        "value": 57
-      },
-      {
-        "label": 5,
-        "value": 9
-      },
-      {
-        "label": 6,
-        "value": 20
-      }
-    ],
-    "median": 31.0
-  },
-  {
-    "chart_id": "bar_vertical_04",
-    "type": "bar_vertical",
-    "color": "#6a1b9a",
-    "data": [
-      {
-        "label": 1,
-        "value": 9
-      },
-      {
-        "label": 2,
-        "value": 85
-      },
-      {
-        "label": 3,
         "value": 37
       },
       {
+        "label": 3,
+        "value": 66
+      },
+      {
         "label": 4,
-        "value": 5
+        "value": 69
       },
       {
         "label": 5,
-        "value": 68
+        "value": 5
       },
       {
         "label": 6,
-        "value": 87
+        "value": 23
       },
       {
         "label": 7,
-        "value": 82
+        "value": 85
       },
       {
         "label": 8,
-        "value": 92
+        "value": 52
+      },
+      {
+        "label": 9,
+        "value": 56
       }
     ],
-    "median": 75.0
+    "median": 56
   },
   {
-    "chart_id": "pie_17",
+    "chart_id": "pie_10",
     "type": "pie",
-    "color": "#1976d2",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 9
+        "value": 35
       },
       {
         "label": 2,
-        "value": 39
+        "value": 61
       },
       {
         "label": 3,
-        "value": 65
+        "value": 26
+      },
+      {
+        "label": 4,
+        "value": 11
+      },
+      {
+        "label": 5,
+        "value": 85
+      },
+      {
+        "label": 6,
+        "value": 96
+      },
+      {
+        "label": 7,
+        "value": 26
+      },
+      {
+        "label": 8,
+        "value": 87
+      },
+      {
+        "label": 9,
+        "value": 33
+      }
+    ],
+    "median": 35
+  },
+  {
+    "chart_id": "pie_08",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 83
+      },
+      {
+        "label": 2,
+        "value": 23
+      },
+      {
+        "label": 3,
+        "value": 36
       },
       {
         "label": 4,
@@ -2130,79 +982,295 @@
       },
       {
         "label": 5,
-        "value": 25
-      }
-    ],
-    "median": 39
-  },
-  {
-    "chart_id": "bar_horizontal_12",
-    "type": "bar_horizontal",
-    "color": "#2e7d32",
-    "data": [
-      {
-        "label": 1,
-        "value": 71
-      },
-      {
-        "label": 2,
-        "value": 84
-      },
-      {
-        "label": 3,
-        "value": 30
-      },
-      {
-        "label": 4,
-        "value": 93
-      },
-      {
-        "label": 5,
-        "value": 67
+        "value": 99
       },
       {
         "label": 6,
-        "value": 10
+        "value": 57
       },
       {
         "label": 7,
-        "value": 60
+        "value": 72
       }
     ],
-    "median": 67
+    "median": 72
   },
   {
-    "chart_id": "bar_vertical_10",
-    "type": "bar_vertical",
-    "color": "#6a1b9a",
+    "chart_id": "bar_horizontal_03",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
-        "value": 99
+        "value": 35
       },
       {
         "label": 2,
-        "value": 99
+        "value": 7
       },
       {
         "label": 3,
-        "value": 84
+        "value": 99
       },
       {
         "label": 4,
-        "value": 78
+        "value": 70
       },
       {
         "label": 5,
-        "value": 22
+        "value": 57
+      },
+      {
+        "label": 6,
+        "value": 51
+      },
+      {
+        "label": 7,
+        "value": 75
       }
     ],
-    "median": 84
+    "median": 57
   },
   {
-    "chart_id": "pie_18",
+    "chart_id": "pie_09",
     "type": "pie",
-    "color": "#1976d2",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 41
+      },
+      {
+        "label": 2,
+        "value": 42
+      },
+      {
+        "label": 3,
+        "value": 26
+      },
+      {
+        "label": 4,
+        "value": 94
+      },
+      {
+        "label": 5,
+        "value": 9
+      }
+    ],
+    "median": 41
+  },
+  {
+    "chart_id": "pie_13",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 73
+      },
+      {
+        "label": 2,
+        "value": 59
+      },
+      {
+        "label": 3,
+        "value": 70
+      },
+      {
+        "label": 4,
+        "value": 24
+      },
+      {
+        "label": 5,
+        "value": 31
+      },
+      {
+        "label": 6,
+        "value": 11
+      },
+      {
+        "label": 7,
+        "value": 76
+      }
+    ],
+    "median": 59
+  },
+  {
+    "chart_id": "pie_02",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 36
+      },
+      {
+        "label": 2,
+        "value": 39
+      },
+      {
+        "label": 3,
+        "value": 93
+      },
+      {
+        "label": 4,
+        "value": 36
+      },
+      {
+        "label": 5,
+        "value": 39
+      },
+      {
+        "label": 6,
+        "value": 32
+      }
+    ],
+    "median": 37.5
+  },
+  {
+    "chart_id": "bar_horizontal_02",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 83
+      },
+      {
+        "label": 2,
+        "value": 71
+      },
+      {
+        "label": 3,
+        "value": 69
+      },
+      {
+        "label": 4,
+        "value": 72
+      },
+      {
+        "label": 5,
+        "value": 70
+      }
+    ],
+    "median": 71
+  },
+  {
+    "chart_id": "bar_vertical_02",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 40
+      },
+      {
+        "label": 2,
+        "value": 70
+      },
+      {
+        "label": 3,
+        "value": 16
+      },
+      {
+        "label": 4,
+        "value": 33
+      },
+      {
+        "label": 5,
+        "value": 19
+      },
+      {
+        "label": 6,
+        "value": 51
+      },
+      {
+        "label": 7,
+        "value": 51
+      },
+      {
+        "label": 8,
+        "value": 55
+      }
+    ],
+    "median": 45.5
+  },
+  {
+    "chart_id": "bar_vertical_11",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 59
+      },
+      {
+        "label": 2,
+        "value": 13
+      },
+      {
+        "label": 3,
+        "value": 94
+      },
+      {
+        "label": 4,
+        "value": 73
+      },
+      {
+        "label": 5,
+        "value": 86
+      }
+    ],
+    "median": 73
+  },
+  {
+    "chart_id": "bar_vertical_13",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 63
+      },
+      {
+        "label": 2,
+        "value": 41
+      },
+      {
+        "label": 3,
+        "value": 24
+      },
+      {
+        "label": 4,
+        "value": 59
+      },
+      {
+        "label": 5,
+        "value": 33
+      },
+      {
+        "label": 6,
+        "value": 60
+      },
+      {
+        "label": 7,
+        "value": 92
+      },
+      {
+        "label": 8,
+        "value": 67
+      },
+      {
+        "label": 9,
+        "value": 7
+      }
+    ],
+    "median": 59
+  },
+  {
+    "chart_id": "bar_horizontal_16",
+    "type": "bar_horizontal",
+    "color": "lightgray",
     "data": [
       {
         "label": 1,
@@ -2210,33 +1278,1005 @@
       },
       {
         "label": 2,
+        "value": 49
+      },
+      {
+        "label": 3,
+        "value": 97
+      },
+      {
+        "label": 4,
+        "value": 38
+      },
+      {
+        "label": 5,
+        "value": 7
+      },
+      {
+        "label": 6,
+        "value": 32
+      },
+      {
+        "label": 7,
+        "value": 60
+      },
+      {
+        "label": 8,
+        "value": 70
+      }
+    ],
+    "median": 46.0
+  },
+  {
+    "chart_id": "bar_vertical_14",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 11
+      },
+      {
+        "label": 2,
+        "value": 18
+      },
+      {
+        "label": 3,
+        "value": 13
+      },
+      {
+        "label": 4,
+        "value": 92
+      },
+      {
+        "label": 5,
+        "value": 18
+      },
+      {
+        "label": 6,
+        "value": 18
+      },
+      {
+        "label": 7,
+        "value": 71
+      },
+      {
+        "label": 8,
+        "value": 30
+      },
+      {
+        "label": 9,
+        "value": 61
+      }
+    ],
+    "median": 18
+  },
+  {
+    "chart_id": "pie_06",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 12
+      },
+      {
+        "label": 2,
+        "value": 12
+      },
+      {
+        "label": 3,
+        "value": 93
+      },
+      {
+        "label": 4,
+        "value": 47
+      },
+      {
+        "label": 5,
+        "value": 73
+      },
+      {
+        "label": 6,
+        "value": 73
+      }
+    ],
+    "median": 60.0
+  },
+  {
+    "chart_id": "bar_vertical_01",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 71
+      },
+      {
+        "label": 2,
+        "value": 11
+      },
+      {
+        "label": 3,
+        "value": 5
+      },
+      {
+        "label": 4,
+        "value": 52
+      },
+      {
+        "label": 5,
+        "value": 59
+      },
+      {
+        "label": 6,
+        "value": 71
+      },
+      {
+        "label": 7,
+        "value": 100
+      },
+      {
+        "label": 8,
+        "value": 26
+      },
+      {
+        "label": 9,
+        "value": 57
+      },
+      {
+        "label": 10,
+        "value": 7
+      }
+    ],
+    "median": 54.5
+  },
+  {
+    "chart_id": "bar_vertical_08",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 79
+      },
+      {
+        "label": 2,
+        "value": 58
+      },
+      {
+        "label": 3,
+        "value": 70
+      },
+      {
+        "label": 4,
+        "value": 22
+      },
+      {
+        "label": 5,
+        "value": 56
+      },
+      {
+        "label": 6,
+        "value": 80
+      },
+      {
+        "label": 7,
+        "value": 51
+      }
+    ],
+    "median": 58
+  },
+  {
+    "chart_id": "bar_horizontal_06",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 30
+      },
+      {
+        "label": 2,
+        "value": 44
+      },
+      {
+        "label": 3,
+        "value": 23
+      },
+      {
+        "label": 4,
+        "value": 94
+      },
+      {
+        "label": 5,
+        "value": 77
+      },
+      {
+        "label": 6,
+        "value": 54
+      },
+      {
+        "label": 7,
+        "value": 64
+      },
+      {
+        "label": 8,
+        "value": 6
+      },
+      {
+        "label": 9,
+        "value": 53
+      }
+    ],
+    "median": 53
+  },
+  {
+    "chart_id": "pie_16",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 57
+      },
+      {
+        "label": 2,
+        "value": 29
+      },
+      {
+        "label": 3,
+        "value": 66
+      },
+      {
+        "label": 4,
+        "value": 39
+      },
+      {
+        "label": 5,
+        "value": 63
+      },
+      {
+        "label": 6,
+        "value": 91
+      },
+      {
+        "label": 7,
+        "value": 18
+      },
+      {
+        "label": 8,
+        "value": 26
+      },
+      {
+        "label": 9,
+        "value": 5
+      }
+    ],
+    "median": 39
+  },
+  {
+    "chart_id": "bar_vertical_19",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 62
+      },
+      {
+        "label": 2,
+        "value": 56
+      },
+      {
+        "label": 3,
+        "value": 88
+      },
+      {
+        "label": 4,
+        "value": 32
+      },
+      {
+        "label": 5,
+        "value": 17
+      },
+      {
+        "label": 6,
+        "value": 87
+      },
+      {
+        "label": 7,
+        "value": 81
+      }
+    ],
+    "median": 62
+  },
+  {
+    "chart_id": "pie_18",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 73
+      },
+      {
+        "label": 2,
+        "value": 69
+      },
+      {
+        "label": 3,
+        "value": 96
+      },
+      {
+        "label": 4,
+        "value": 51
+      },
+      {
+        "label": 5,
+        "value": 56
+      },
+      {
+        "label": 6,
+        "value": 56
+      },
+      {
+        "label": 7,
+        "value": 37
+      },
+      {
+        "label": 8,
+        "value": 22
+      },
+      {
+        "label": 9,
+        "value": 80
+      }
+    ],
+    "median": 56
+  },
+  {
+    "chart_id": "bar_vertical_20",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 31
+      },
+      {
+        "label": 2,
+        "value": 43
+      },
+      {
+        "label": 3,
+        "value": 43
+      },
+      {
+        "label": 4,
+        "value": 96
+      },
+      {
+        "label": 5,
+        "value": 39
+      },
+      {
+        "label": 6,
+        "value": 56
+      }
+    ],
+    "median": 43.0
+  },
+  {
+    "chart_id": "bar_vertical_17",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 37
+      },
+      {
+        "label": 2,
+        "value": 96
+      },
+      {
+        "label": 3,
+        "value": 5
+      },
+      {
+        "label": 4,
+        "value": 42
+      },
+      {
+        "label": 5,
+        "value": 93
+      },
+      {
+        "label": 6,
+        "value": 43
+      },
+      {
+        "label": 7,
+        "value": 56
+      },
+      {
+        "label": 8,
+        "value": 67
+      }
+    ],
+    "median": 49.5
+  },
+  {
+    "chart_id": "bar_horizontal_17",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 23
+      },
+      {
+        "label": 2,
+        "value": 62
+      },
+      {
+        "label": 3,
+        "value": 8
+      },
+      {
+        "label": 4,
+        "value": 59
+      },
+      {
+        "label": 5,
+        "value": 46
+      }
+    ],
+    "median": 46
+  },
+  {
+    "chart_id": "bar_vertical_07",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 58
+      },
+      {
+        "label": 2,
+        "value": 91
+      },
+      {
+        "label": 3,
+        "value": 79
+      },
+      {
+        "label": 4,
+        "value": 84
+      },
+      {
+        "label": 5,
+        "value": 86
+      },
+      {
+        "label": 6,
+        "value": 23
+      },
+      {
+        "label": 7,
+        "value": 54
+      },
+      {
+        "label": 8,
+        "value": 54
+      }
+    ],
+    "median": 68.5
+  },
+  {
+    "chart_id": "bar_horizontal_18",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 59
+      },
+      {
+        "label": 2,
+        "value": 64
+      },
+      {
+        "label": 3,
+        "value": 90
+      },
+      {
+        "label": 4,
+        "value": 89
+      },
+      {
+        "label": 5,
+        "value": 47
+      },
+      {
+        "label": 6,
+        "value": 76
+      }
+    ],
+    "median": 70.0
+  },
+  {
+    "chart_id": "bar_vertical_05",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 92
+      },
+      {
+        "label": 2,
         "value": 97
       },
       {
         "label": 3,
-        "value": 12
+        "value": 16
       },
       {
         "label": 4,
-        "value": 50
+        "value": 8
       },
       {
         "label": 5,
-        "value": 68
+        "value": 48
       },
       {
         "label": 6,
-        "value": 70
+        "value": 44
       },
       {
         "label": 7,
-        "value": 86
+        "value": 34
       },
       {
         "label": 8,
-        "value": 61
+        "value": 91
       }
     ],
-    "median": 64.5
+    "median": 46.0
+  },
+  {
+    "chart_id": "bar_vertical_04",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 18
+      },
+      {
+        "label": 2,
+        "value": 29
+      },
+      {
+        "label": 3,
+        "value": 11
+      },
+      {
+        "label": 4,
+        "value": 82
+      },
+      {
+        "label": 5,
+        "value": 79
+      },
+      {
+        "label": 6,
+        "value": 100
+      },
+      {
+        "label": 7,
+        "value": 45
+      }
+    ],
+    "median": 45
+  },
+  {
+    "chart_id": "pie_15",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 46
+      },
+      {
+        "label": 2,
+        "value": 23
+      },
+      {
+        "label": 3,
+        "value": 14
+      },
+      {
+        "label": 4,
+        "value": 78
+      },
+      {
+        "label": 5,
+        "value": 88
+      },
+      {
+        "label": 6,
+        "value": 27
+      }
+    ],
+    "median": 36.5
+  },
+  {
+    "chart_id": "pie_12",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 18
+      },
+      {
+        "label": 2,
+        "value": 35
+      },
+      {
+        "label": 3,
+        "value": 26
+      },
+      {
+        "label": 4,
+        "value": 59
+      },
+      {
+        "label": 5,
+        "value": 59
+      }
+    ],
+    "median": 35
+  },
+  {
+    "chart_id": "bar_vertical_12",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 32
+      },
+      {
+        "label": 2,
+        "value": 23
+      },
+      {
+        "label": 3,
+        "value": 10
+      },
+      {
+        "label": 4,
+        "value": 92
+      },
+      {
+        "label": 5,
+        "value": 69
+      }
+    ],
+    "median": 32
+  },
+  {
+    "chart_id": "pie_04",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 16
+      },
+      {
+        "label": 2,
+        "value": 32
+      },
+      {
+        "label": 3,
+        "value": 18
+      },
+      {
+        "label": 4,
+        "value": 41
+      },
+      {
+        "label": 5,
+        "value": 10
+      },
+      {
+        "label": 6,
+        "value": 29
+      },
+      {
+        "label": 7,
+        "value": 41
+      }
+    ],
+    "median": 29
+  },
+  {
+    "chart_id": "pie_07",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 65
+      },
+      {
+        "label": 2,
+        "value": 60
+      },
+      {
+        "label": 3,
+        "value": 16
+      },
+      {
+        "label": 4,
+        "value": 32
+      },
+      {
+        "label": 5,
+        "value": 41
+      }
+    ],
+    "median": 41
+  },
+  {
+    "chart_id": "bar_vertical_15",
+    "type": "bar_vertical",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 83
+      },
+      {
+        "label": 2,
+        "value": 34
+      },
+      {
+        "label": 3,
+        "value": 44
+      },
+      {
+        "label": 4,
+        "value": 54
+      },
+      {
+        "label": 5,
+        "value": 96
+      },
+      {
+        "label": 6,
+        "value": 29
+      },
+      {
+        "label": 7,
+        "value": 65
+      },
+      {
+        "label": 8,
+        "value": 95
+      },
+      {
+        "label": 9,
+        "value": 64
+      },
+      {
+        "label": 10,
+        "value": 8
+      }
+    ],
+    "median": 59.0
+  },
+  {
+    "chart_id": "pie_19",
+    "type": "pie",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 84
+      },
+      {
+        "label": 2,
+        "value": 54
+      },
+      {
+        "label": 3,
+        "value": 56
+      },
+      {
+        "label": 4,
+        "value": 58
+      },
+      {
+        "label": 5,
+        "value": 9
+      },
+      {
+        "label": 6,
+        "value": 33
+      },
+      {
+        "label": 7,
+        "value": 43
+      },
+      {
+        "label": 8,
+        "value": 85
+      },
+      {
+        "label": 9,
+        "value": 57
+      }
+    ],
+    "median": 56
+  },
+  {
+    "chart_id": "bar_horizontal_01",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 86
+      },
+      {
+        "label": 2,
+        "value": 73
+      },
+      {
+        "label": 3,
+        "value": 37
+      },
+      {
+        "label": 4,
+        "value": 82
+      },
+      {
+        "label": 5,
+        "value": 79
+      },
+      {
+        "label": 6,
+        "value": 36
+      },
+      {
+        "label": 7,
+        "value": 77
+      },
+      {
+        "label": 8,
+        "value": 19
+      }
+    ],
+    "median": 75.0
+  },
+  {
+    "chart_id": "bar_horizontal_15",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 84
+      },
+      {
+        "label": 2,
+        "value": 36
+      },
+      {
+        "label": 3,
+        "value": 70
+      },
+      {
+        "label": 4,
+        "value": 62
+      },
+      {
+        "label": 5,
+        "value": 88
+      },
+      {
+        "label": 6,
+        "value": 78
+      },
+      {
+        "label": 7,
+        "value": 19
+      },
+      {
+        "label": 8,
+        "value": 66
+      }
+    ],
+    "median": 68.0
+  },
+  {
+    "chart_id": "bar_horizontal_19",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 6
+      },
+      {
+        "label": 2,
+        "value": 60
+      },
+      {
+        "label": 3,
+        "value": 23
+      },
+      {
+        "label": 4,
+        "value": 75
+      },
+      {
+        "label": 5,
+        "value": 47
+      },
+      {
+        "label": 6,
+        "value": 50
+      },
+      {
+        "label": 7,
+        "value": 64
+      },
+      {
+        "label": 8,
+        "value": 57
+      },
+      {
+        "label": 9,
+        "value": 50
+      }
+    ],
+    "median": 50
+  },
+  {
+    "chart_id": "bar_horizontal_12",
+    "type": "bar_horizontal",
+    "color": "lightgray",
+    "data": [
+      {
+        "label": 1,
+        "value": 8
+      },
+      {
+        "label": 2,
+        "value": 44
+      },
+      {
+        "label": 3,
+        "value": 11
+      },
+      {
+        "label": 4,
+        "value": 38
+      },
+      {
+        "label": 5,
+        "value": 49
+      }
+    ],
+    "median": 38
   }
 ]

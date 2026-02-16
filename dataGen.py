@@ -18,8 +18,6 @@ MAX_POINTS = 10
 MIN_VAL = 5
 MAX_VAL = 100
 
-COLORS = ["#1976d2", "#ef6c00", "#2e7d32", "#6a1b9a", "#c62828"]
-
 def generate_chart(chart_type, idx):
     n = random.randint(MIN_POINTS, MAX_POINTS)
 
@@ -36,7 +34,7 @@ def generate_chart(chart_type, idx):
     return {
         "chart_id": f"{chart_type}_{idx:02d}",
         "type": chart_type,
-        "color": random.choice(COLORS),
+        "color": "lightgray",
         "data": data_points,
         "median": median_val
     }
