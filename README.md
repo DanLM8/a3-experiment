@@ -2,7 +2,7 @@ Assignment 3 - Replicating a Classic Experiment
 ===
 02/20/2026
 
-Link to gh-pages: 
+Link to gh-pages: [ADD LINK HERE]
 
 
 Written By: Skyler Dooley & Daniel Mastrobuono
@@ -15,7 +15,10 @@ Note: To run experiment webpage locally, use the command ```node server.js ``` (
 
 
 # Description of Experiment
-We wanted to test if horizontal barcharts, vertical barcharts, or pie charts are easier for humans to find the median data point. Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value simply because horizontal barcharts are one of the more common ways to relay information. This experiment consisted of 3 graph types, 20 randomly generated versions of each graph (60 graphs total), and 10 participants. Each participant was asked the question "Select the bar/slice you believe to be the median" for each of the 60 charts, and each participant were given the same 60 charts. After each participant completed all 60 trials, a csv file was automatically downloaded onto the local computer which we were then able to add back into the source folder. From there we were able to gather all the outputs from the trials into one master csv file and calculate the error.
+We wanted to test if horizontal barcharts, vertical barcharts, or pie charts are easier for humans to find the median data point. Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value simply because horizontal barcharts are one of the more common ways to relay information. This experiment consisted of 3 graph types, 20 randomly generated versions of each graph (60 graphs total), and 10 participants. Each participant was asked the question "Select the bar/slice you believe to be the median" for each of the 60 charts, and each participant were given the same 60 charts. After each participant completed all 60 trials, a csv file was automatically downloaded onto the local computer which we were then able to add back into the source folder. From there we were able to gather all the outputs from the trials into one master csv file and calculate the error. 
+[ADD MORE HERE ABOUT WHAT OUR ERROR VALUES WERE, WHAT THEY MEAN, AND HOW THEY COMPARE TO PAPER]
+
+![error graph](/img/errorGraph.PNG)     THIS DOES NOT EXIST YET...
 
 
 # Technical Achievements
