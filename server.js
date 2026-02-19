@@ -8,13 +8,6 @@ const PORT = 3000;
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
 
-const FILE = "results.csv";
-
-// create file with header if it doesn't exist
-if (!fs.existsSync(FILE)) {
-  fs.writeFileSync(FILE, "timestamp,selections\n");
-}
-
 app.post("/save", (req, res) => {
   const { selections } = req.body;
 
