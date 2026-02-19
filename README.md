@@ -6,12 +6,7 @@ Link to gh-pages: [https://danlm8.github.io/a3-experiment/]
 
 Finding the Mean: Are horizontal barcharts, vertical barcharts, or pie charts easier for humans to find the median data point?
 Written By: Skyler Dooley & Daniel Mastrobuono
---
-
-HYPOTHESIS
-Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value. 
-
-Note: To run experiment webpage locally, use the command ```node server.js ``` (make sure to run dataGen.py to generate charts first)
+-- 
 
 ![experiment bar](/img/experimentbar.PNG)
 ![experiment pie](/img/experimentpie.PNG)
@@ -19,7 +14,7 @@ Note: To run experiment webpage locally, use the command ```node server.js ``` (
 
 
 # Description of Experiment
-We wanted to test if horizontal barcharts, vertical barcharts, or pie charts are easier for humans to find the median data point. Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value simply because horizontal barcharts are one of the more common ways to relay information. This experiment consisted of 3 graph types, 20 randomly generated versions of each graph (60 graphs total), and 10 participants. Each participant was asked the question "Select the bar/slice you believe to be the median" for each of the 60 charts, and each participant were given the same 60 charts. After each participant completed all 60 trials, a csv file was automatically downloaded onto the local computer which we were then able to add back into the source folder. From there we were able to gather all the outputs from the trials into one master csv file and calculate the error. 
+We wanted to test if horizontal barcharts, vertical barcharts, or pie charts are easier for humans to find the median data point. Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value simply because horizontal barcharts are one of the more common ways to relay information. This experiment consisted of 3 graph types, 20 randomly generated versions of each graph (60 graphs total), and 10 participants. Each participant was asked the question "Select the bar/slice you believe to be the median" for each of the 60 charts, and each participant were given the same 60 charts. We performed these tests in person, because after each participant completed all 60 trials, a csv file was downloaded onto our local computer. We were then able to add that file back into the source folder. From there we were able to gather all the outputs from the trials into one master csv file and calculate the error. 
 
 Rankings: 
 1. Horizontal Bar Chart with a 2.55 avg error
@@ -36,3 +31,5 @@ To run this experiment, we choose to host the webpage where the experiments were
 To generate the 60 charts, we wrote python code, ``` dataGen.py ```, that outputs a json file containing chart id, chart type, color of the chart (which was lightgray for all), data points, and the median value (or true-percent). Then in ```index.html```, we used d3 to read from the json file and created the charts, along with the other elements of the webpage itself (title, automatic save to csv function, mouseclicks). 
 
 To combine all the csv files from the trials, we wrote two more python files, ```combine_csvs.py``` and ```get_error.py```, which combine the csvs into a master file and then calculates the error values for each row. We found that this was the quickest and easiest way to combine the files and get the error values without having to manually copy/paste the contents of each file into a new spreadsheet.
+
+Additionally, the participants almost thought of this as a competition, and they wished to see who had guessed the most correct medians. Therefore we wrote a quick python file, find_winner.py, to do just that. Congratulations Ian. 
