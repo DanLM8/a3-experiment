@@ -2,7 +2,7 @@ Assignment 3 - Replicating a Classic Experiment
 ===
 02/20/2026
 
-Link to gh-pages: [](https://danlm8.github.io/a3-experiment/)
+Link to gh-pages: [https://danlm8.github.io/a3-experiment/]
 
 Finding the Mean: Are horizontal barcharts, vertical barcharts, or pie charts easier for humans to find the median data point?
 Written By: Skyler Dooley & Daniel Mastrobuono
