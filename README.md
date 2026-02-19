@@ -17,6 +17,11 @@ Note: To run experiment webpage locally, use the command ```node server.js ``` (
 # Description of Experiment
 We wanted to test if horizontal barcharts, vertical barcharts, or pie charts are easier for humans to find the median data point. Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value simply because horizontal barcharts are one of the more common ways to relay information. This experiment consisted of 3 graph types, 20 randomly generated versions of each graph (60 graphs total), and 10 participants. Each participant was asked the question "Select the bar/slice you believe to be the median" for each of the 60 charts, and each participant were given the same 60 charts. After each participant completed all 60 trials, a csv file was automatically downloaded onto the local computer which we were then able to add back into the source folder. From there we were able to gather all the outputs from the trials into one master csv file and calculate the error. 
 
+Rankings: 
+1. Horizontal Bar Chart with a 2.55 avg error
+2. Pie Chart with a 2.69 avg error
+3. Vertical Bar Chart with a 2.73 avg error
+
 We calculated the error value using Cleveland and McGill's log2 function. From this, we can see some interesting results. Our hypothesis was correct, the horizontal bar charts are easier to find the median on. However, we were incredibly surprised to see that the vertical bar chart had the most error, while the pie chart was slightly better. Vertical bar charts are probably the most common type of chart used in most industries, so it's shocking to see that it isn't all that great at displaying the values in between the highest and the lowest. It would seem that when one is trying to display any data where seeing the median may be important, they should use a horizontal bar chart. 
 
 <img width="1299" height="820" alt="image" src="https://github.com/user-attachments/assets/1a31a305-c270-45e0-b748-eac48c5f288a" />
