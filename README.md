@@ -4,9 +4,13 @@ Assignment 3 - Replicating a Classic Experiment
 
 Link to gh-pages: [ADD LINK HERE]
 
-
+Finding the Mean: Are horizontal barcharts, vertical barcharts, or pie charts easier for humans to find the median data point?
 Written By: Skyler Dooley & Daniel Mastrobuono
 --
+
+HYPOTHESIS
+Our hypothesis is that people will prefer horizontal bar charts when attempting to determine the median value. 
+
 Note: To run experiment webpage locally, use the command ```node server.js ``` (make sure to run dataGen.py to generate charts first)
 
 ![experiment bar](/img/experimentbar.PNG)
